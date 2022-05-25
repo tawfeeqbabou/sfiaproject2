@@ -1,0 +1,7 @@
+---
+# tasks file for managerclonerepo
+
+- git: 
+    repo: https://github.com/tawfeeqbabou/sfiaproject2.git
+    dest: /home/tawfeeq/sfiaproject2
+    
