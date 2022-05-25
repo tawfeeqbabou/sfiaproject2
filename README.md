@@ -8,6 +8,7 @@
     * [Risk Assessment](#risk-assessment)
     * [Risk Assessment Updates](#risk-assessment-updates)
     * [CI Pipeline](#ci-pipeline)
+    * [Source Control](#source-control)
 * [Automated Testing](#automated-testing)
 * [Front-End Design](#front-end-design)
     * [Screenshots](screenshots)
@@ -16,7 +17,7 @@
 * [Authors](#authors)
 * [Acknowledgments](#Acknowledgements)
 
-# [(For Presentation click here)](https://drive.google.com/file/d/1HzHP5fvzp_T-OpQBZvpigLzSFkZ3x1cm/view?usp=sharing)
+# [(For Presentation click here)](https://drive.google.com/file/d/15bosDkw_g2gjZ444BV2QeXSC6x0Ag85R/view?usp=sharing)
 # Brief
 
 The following README document takes the user through the second project we have been  <br> 
@@ -105,6 +106,11 @@ As you can see I have visited my risk assessment with new learning, consideratio
 
 ![CI Pipeline](./images/CI%20pipeline%20finished.png)
 
+## Source Control
+Showing use of _**dev, feautures and main branches**_ in Github.
+
+![source control](./images/source%20control%20sfia2.png)
+
 # Automated Testing
 
 I successfully ran automated tests through jenkins here are my coverage reports <br>
@@ -149,7 +155,9 @@ app screenshot3
 # Issues and Challenges
 1. _**Ansible**_: I was unfortunately unable to implement Ansible. See error below.
 * Troubleshooting: Created new VM, re wrote script in _roles folder/tasks_,
-* 
+
+![ansible error](./images/Ansible%20Error.png)
+
 2. Docker Swarm: I kept coming across an error where Docker Swarm would deploy <br>
 but my web page would keep displaying web address unreachable.
     * Troubleshooting: My first approach was to check through each service and see which <br>
