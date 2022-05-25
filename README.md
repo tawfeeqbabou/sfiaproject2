@@ -4,10 +4,9 @@
     * [Additional Requirements](#additional-requirements)
 * [Build Instructions For Application](#build-instructions-for-application)
 * [Planning](#planning)
-    * [Modifications](#modifications)
-* [Project Overview](#project-overview)
-    * [Application Architecture](#application-architecture)
+* [Application Structure](#application-structure)
     * [Risk Assessment](#risk-assessment)
+    * [Risk Assessment Updates](#risk-assessment-updates)
     * [CI Pipeline](#ci-pipeline)
 * [Automated Testing](#automated-testing)
 * [Front-End Design](#front-end-design)
@@ -73,5 +72,19 @@ code in the aforementioned file:<br>
 Here is my Trello kanban board which shows how I planned and went <br>
 about breaking user stories and sprints down into steps.<br>
 ![trello](./images/trello2.png)
-# Modifications
-vm layout, app layout, erd layout
+#   Application Structure
+![trello modifications](./images/trello3.png)
+<br><br>
+As you can see, my original plan was to have CRUD functionality and a corresponding <br>
+database. My idea for the app changed as I spent increasing time troubleshooting mainly Ansible, and syntax errors.<br>
+<br>
+## Original app architecture vs current displayed below:
+![App architecture and iteration](./images/App%20architecture%20and%20iteration.jpg)
+<br><br>
+## Risk Assessment
+<br>
+My risk assessment pertains to the risks I found to be most common for the type of app we <br>
+building. I wanted to avoid including every generic possibility. I fouced on adding aisk <br>
+assessment updates
+<br>
+![risk assessment](./images/Risk%20assessment%20sfia2.png)
